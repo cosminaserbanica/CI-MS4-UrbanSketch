@@ -12,7 +12,7 @@ body {
 
 /* https://blog.hubspot.com/website/css-fade-in */
 
-.fade-in-logo {
+.fade-in-logo, .enter-shop {
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
   -moz-animation: fadeIn 5s;
@@ -42,4 +42,89 @@ body {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+/* https://codepen.io/robson_muniz/pen/BaygbQY */
+
+.enter-shop {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+  font-weight: bold;
+  text-shadow: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.enter-shop:hover {
+  color: #570f4b;
+  background: #f3b2f5;
+  box-shadow: 0 0 10px #f3b2f5, 0 0 40px #f3b2f5, 0 0 80px #f3b2f5;
+  transition-delay: 1s;
+}
+
+.enter-shop span {
+  position: absolute;
+  display: block;
+}
+
+.enter-shop span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f1a7db);
+}
+
+.enter-shop:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+}
+
+.enter-shop span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #f1a7db);
+}
+
+.enter-shop:hover span:nth-child(3) {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+.enter-shop span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #f1a7db);
+}
+
+.enter-shop:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+.enter-shop span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #f1a7db);
+}
+
+.enter-shop:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
 }
