@@ -20,6 +20,7 @@
     {% endblock %}
 
     {% block extra_css %}
+      <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block corejs %}
@@ -35,7 +36,7 @@
     <title>Urban Sketch {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <header class="container-fluid fixed-top"></header>
+    <header></header>
 
     {% if messages %}
       <div class="message-container"></div>
