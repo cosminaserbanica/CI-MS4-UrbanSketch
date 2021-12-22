@@ -1,0 +1,1097 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Molotow Premium Spray Paint",
+      "description": "Semi Gloss Finish 400ml.",
+      "price": 3.95,
+      "category": 1,
+      "rating": 4.6,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-premium-spray-paint-p92-17214_medium.jpg",
+      "image": "molotow-premium-spray-paint-p92-17214_image.png"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "Molotow Coversall Acrylic Water Based Spray Paint",
+      "description": "Water based acrylic with matt finish 400ml.",
+      "price": 4.95,
+      "category": 1,
+      "rating": 4.6,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-coversall-acrylic-water-based-spray-paint-p2986-13799_medium.jpg",
+      "image": "molotow-coversall-acrylic-water-based-spray-paint-p2986-13799_image.png"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "Molotow Coversall Color Spray Paint",
+      "description": "Nitro-alkyd base with semi-gloss finish 400ml.",
+      "price": 3.60,
+      "category": 1,
+      "rating": 4.7,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-coversall-color-spray-paint-p41-18340_medium.jpg",
+      "image": "molotow-coversall-color-spray-paint-p41-18340_image.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "Molotow One4All Acrylic Spray Paint",
+      "description": "Water based acrylic with matt finish 400ml.",
+      "price": 8.19,
+      "category": 1,
+      "rating": 3,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-one4all-acrylic-spray-paint-p83-6333_medium.jpg",
+      "image": "molotow-one4all-acrylic-spray-paint-p83-6333_image.png"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "Molotow Burner 400 Chrome",
+      "description": "The original and best, Molotow Burner chrome spray paint; outstanding diamond shine, ultra high gloss, 400ml.",
+      "price": 4.75,
+      "category": 1,
+      "rating": 5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-burner-400-chrome-p1438-6338_image.jpg",
+      "image": "molotow-burner-400-chrome-p1438-6338_image.png"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "Molotow Premium Neon",
+      "description": "Fluorescent NEON effects with matt finish, 400ml.",
+      "price": 4.49,
+      "category": 1,
+      "rating": 4.7,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-premium-neon-p4038-21855_medium.jpg",
+      "image": "molotow-premium-neon-p4038-21855_image.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "Montana Iconic Series Cantwo",
+      "description": "Inspired by the German Graffiti artist CANTWO, gloss finish, 400ml.",
+      "price": 5.25,
+      "category": 1,
+      "rating": 4.4,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-iconic-series-cantwo-cotton-candy-p4899-27930_medium.jpg",
+      "image": "montana-iconic-series-cantwo-p4899-27930_image.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002601115",
+      "name": "Montana - Artist Series Spray Paint - ATOM MEGABLAST",
+      "description": "The 20th edition of the Montana Artist Series features artwork from Atom One, matt finish, 400ml.",
+      "price": 5.25,
+      "category": 1,
+      "rating": 4.5,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-black-artist-edition-atoms-megablast-p4604-25005_medium.jpg",
+      "image": "montana-artist-edition-atoms-megablast-p4604-25005_image.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002690715",
+      "name": "Montana Artist Edition Dems",
+      "description": "Featuring Spanish Artist DEMS, matt finish, 400ml.",
+      "price": 5.25,
+      "category": 1,
+      "rating": 4.7,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-black-artist-edition-dems-p3987-21306_medium.jpg",
+      "image": "montana-artist-edition-dems-p3987-21306_image.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002701115",
+      "name": "Montana Gold Spray Paint",
+      "description": "Original Montana, semi-gloss finish, 400ml.",
+      "price": 4.85,
+      "category": 1,
+      "rating": 4.4,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-gold-spray-paint-p64-6323_image.jpg",
+      "image": "montana-gold-spray-paint-p64-6323_medium.png"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002761055",
+      "name": "Montana Metallic Effect Spray Paint",
+      "description": "The Montana Metallic Effect Spray, made from an Acrylic-Nitro Combination base, gloss finish, 400ml.",
+      "price": 6.25,
+      "category": 1,
+      "rating": 3,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-metallic-effect-spray-paint-p1495-6448_medium.jpg",
+      "image": "montana-metallic-effect-spray-paint-p1495-6448_image.png"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820069",
+      "name": "Dope Classic Spray Paint",
+      "description": "Acrylic Base, matt finish, 400ml.",
+      "price": 3.45,
+      "category": 1,
+      "rating": 4.6,
+      "brand": "DOPE",
+      "image_url": "https://www.graff-city.com/images/dope-classic-spray-paint-p104-6325_image.jpg",
+      "image": "dope-classic-spray-paint-p104-6325_medium.png"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820147",
+      "name": "Dope Supreme Spray Paint",
+      "description": "Alkyd base, semi-gloss finish, 400ml.",
+      "price": 3.95,
+      "category": 1,
+      "rating": 3.2,
+      "brand": "DOPE",
+      "image_url": "https://www.graff-city.com/images/dope-supreme-spray-paint-p1538-6775_image.jpg",
+      "image": "dope-supreme-spray-paint-p1538-6775_medium.png"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002910572",
+      "name": "Dope Action Spray Paint",
+      "description": "The Dope Action Spray comes in a high pressure can for quickly painting large surfaces, semi-gloss finish, 400ml.",
+      "price": 3.15,
+      "category": 1,
+      "rating": 4.7,
+      "brand": "DOPE",
+      "image_url": "https://www.graff-city.com/images/dope-action-spray-paint-400ml-p105-16343_image.jpg",
+      "image": "dope-action-spray-paint-400ml-p105-16343_medium.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002990740",
+      "name": "Auster Spray Paint",
+      "description": "UV resistant, durable spray paint, acrylic base, matt finish, 400ml.",
+      "price": 3.95,
+      "category": 1,
+      "rating": 4.8,
+      "brand": "Auster",
+      "image_url": "https://www.graff-city.com/images/auster-spray-paint-p4807-27309_medium.jpg",
+      "image": "auster-spray-paint-p4807-27309_image.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003050248",
+      "name": "MTN 94 Spray Paint",
+      "description": "Modified Alkyd Base, matt finish, 400ml.",
+      "price": 4.85,
+      "category": 1,
+      "rating": 4.4,
+      "brand": "MTN",
+      "image_url": "https://www.graff-city.com/images/mtn-94-spray-paint-p11-6314_medium.jpg",
+      "image": "mtn-94-spray-paint-p11-6314_image.png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003070787",
+      "name": "MTN Hardcore Spray Pain",
+      "description": "Modified Alkyd base, matt finish, 400ml.",
+      "price": 4.45,
+      "category": 1,
+      "rating": 4.4,
+      "brand": "MTN",
+      "image_url": "https://www.graff-city.com/images/mtn-hardcore-spray-paint-p32-6315_medium.jpg",
+      "image": "mtn-hardcore-spray-paint-p32-6315_image.png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090182",
+      "name": "MTN Heat-Resistant Paint",
+      "description": "MTN PRO Heat-resistant Paint is formulated primarily with a Polybutylene, Titanate resin and Thermostable, lead-free pigments. It is specially designed to resist resistant to temperatures up to 600º C. 400ml.",
+      "price": 8.39,
+      "category": 1,
+      "rating": 4.8,
+      "brand": "MTN",
+      "image_url": "https://www.graff-city.com/images/mtn-heat-resistant-paint-p3842-19727_medium.jpg",
+      "image": "mtn-heat-resistant-paint-p3842-19727_image.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090186",
+      "name": "Clash Limited Edition - Nemen",
+      "description": "Synthetic base, semi-gloss finish, 400ml.",
+      "price": 6.29,
+      "category": 1,
+      "rating": 5,
+      "brand": "Clash",
+      "image_url": "https://www.graff-city.com/images/clash-limited-edition-nemen-p3516-19222_medium.jpg",
+      "image": "clash-limited-edition-nemen-p3516-19222_image.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003161326",
+      "name": "Clash Spray Paint",
+      "description": "Synthetic base, semi-gloss finish, 400ml. ",
+      "price": 3.85,
+      "category": 1,
+      "rating": 4.7,
+      "brand": "Clash",
+      "image_url": "https://www.graff-city.com/images/clash-spray-paint-p111-25553_medium.jpg",
+      "image": "clash-spray-paint-p111-25553_image.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003230723",
+      "name": "Daycolors Quick Spray Paint",
+      "description": "Acrylic base, semi-gloss finish, 400ml.",
+      "price": 2.85,
+      "category": 1,
+      "rating": 4.3,
+      "brand": "Daycolors",
+      "image_url": "https://www.graff-city.com/images/daycolors-quick-spray-paint-p4617-25059_medium.jpg",
+      "image": "daycolors-quick-spray-paint-p4617-25059_image.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003270936",
+      "name": "Kobra HP Spray Paint",
+      "description": "Acrylic base, matt finish, 400ml.",
+      "price": 3.60,
+      "category": 1,
+      "rating": 5,
+      "brand": "Kobra",
+      "image_url": "https://www.graff-city.com/images/kobra-hp-spray-paint-p1426-14480_medium.jpg",
+      "image": "kobra-hp-spray-paint-p1426-14480_image.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003360384",
+      "name": "Kobra LP Spray Paint",
+      "description": "Acrylic base, matt finish, 400ml.",
+      "price": 4.05,
+      "category": 1,
+      "rating": 4.8,
+      "brand": "Kobra",
+      "image_url": "https://www.graff-city.com/images/kobra-lp-spray-paint-p25-26553_medium.jpg",
+      "image": "kobra-lp-spray-paint-p25-26553_image.png"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003440111",
+      "name": "Belton Hitcolor",
+      "description": "Strong solid finish on all surfaces, 400ml. ",
+      "price": 2.50,
+      "category": 1,
+      "rating": 2.8,
+      "brand": "Belton",
+      "image_url": "https://www.graff-city.com/images/belton-hitcolor-400ml-p4245-23044_image.jpg",
+      "image": "belton-hitcolor-400ml-p4245-23044_image.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003540313",
+      "name": "A.K.A Colors Solid Paint Marker",
+      "description": "AKA Solid Paint Marker BLACK solidified bar paint  (wax) super permanent for all types of applications. With this product, you can paint on almost any surface from any angle. Rust, dust, water ... resists almost everything.",
+      "price": 6.05,
+      "category": 2,
+      "rating": 3,
+      "brand": "A-K-A Colors",
+      "image_url": "https://www.graff-city.com/images/a-k-a-colors-solid-paint-marker-p4060-21985_image.jpg",
+      "image": "a-k-a-colors-solid-paint-marker-p4060-21985_image.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003560513",
+      "name": "Molotow One4All 127HS",
+      "description": "The acrylic-based 127HS is a classic amongst pump-markers equipped with an easily exchangeable 2 mm tip (Exchangeable to 1mm and 1.5mm.",
+      "price": 2.85,
+      "category": 2,
+      "rating": 4.4,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-one4all-127hs-p298-7801_image.jpg",
+      "image": "molotow-one4all-127hs-p298-7801_image.png"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003560948",
+      "name": "Molotow One4All 227HS",
+      "description": "The 227HS comes equipped with an exchangeable, robust 4mm round-tip. ",
+      "price": 3.50,
+      "category": 2,
+      "rating": 5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-one4all-227hs-p301-7714_image.jpg",
+      "image": "molotow-one4all-227hs-p301-7714_image.png"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003570628",
+      "name": "Molotow Dripstick Permanent Paint 860DS",
+      "description": "The 860DS paint marker is the perfect tool for large areas and juicy drips on nearly all smooth surfaces. The squeezable marker is suitable for indoor and outdoor use.",
+      "price": 8.35,
+      "category": 2,
+      "rating": 4.3,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-dripstick-permanent-paint-860ds-p4059-21961_image.jpg",
+      "image": "molotow-dripstick-permanent-paint-860ds-p4059-21961_image.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003620308",
+      "name": "Molotow One4All 427HS",
+      "description": "The pocket-sized 427HS is perfect for large area applications. The biggest markers of the One 4 All series are equipped with an impressive 15mm broad-tip.",
+      "price": 2.75,
+      "category": 2,
+      "rating": 4.6,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-one4all-427hs-p304-18758_image.jpg",
+      "image": "molotow-one4all-427hs-p304-18758_image.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003690115",
+      "name": "Molotow One4All Acrylic Twin Marker",
+      "description": "This One4All acrylic marker is equipped with two tips for pumping - a 1.5mm round-tip and a 4mm round-tip.",
+      "price": 4.60,
+      "category": 2,
+      "rating": 5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-one4all-acrylic-twin-marker-p1680-7815_image.jpg",
+      "image": "molotow-one4all-acrylic-twin-marker-p1680-7815_image.png"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003690116",
+      "name": "Molotow One4All 327HS",
+      "description": "The pump-marker with the exchangeable 4-8 mm Chisel-Tip for calligraphic art works.",
+      "price": 4.95,
+      "category": 2,
+      "rating": 4,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-one4all-327hs-p303-7809_image.jpg",
+      "image": "molotow-one4all-327hs-p303-7809_image.png"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003780391",
+      "name": "Molotow Dripstick Rollerball - 862DS",
+      "description": "The pocket-sized Dripstick Rollerball comes equipped with the spring-loaded 3 mm rollerball.",
+      "price": 5.99,
+      "category": 2,
+      "rating": 4.8,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-dripstick-rollerball-862ds-p1572-25026_image.jpg",
+      "image": "molotow-dripstick-rollerball-862ds-p1572-25026_image.png"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003790542",
+      "name": "Molotow 420PP",
+      "description": "The Molotow 420PP is an alcohol-based paint pump-marker with highly pigmented permanent paint, equipped with an exchangeable 15mm standard tip.",
+      "price": 3.99,
+      "category": 2,
+      "rating": 4.5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-420pp-p317-7958_image.jpg",
+      "image": "molotow-420pp-p317-7958_image.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003831225",
+      "name": "Molotow 640PP",
+      "description": "The metallic shades of the 640PP markers are just as outstanding as those of the legendary Molotow Burner can.",
+      "price": 6.75,
+      "category": 2,
+      "rating": 4.5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-640pp-p320-7833_image.jpg",
+      "image": "molotow-640pp-p320-7833_image.png"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003861402",
+      "name": "Montana Acrylic Marker 50mm",
+      "description": "The Montana Acrylic Marker 50mm is a high quality water based paint marker.",
+      "price": 7.99,
+      "category": 2,
+      "rating": 4.7,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-acrylic-marker-50mm-p273-565_image.jpg",
+      "image": "montana-acrylic-marker-50mm-p273-565_image.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003910638",
+      "name": "Montana Acrylic Marker 30mm",
+      "description": "The Montana Acrylic Marker 30mm is a high quality water based paint marker.",
+      "price": 5.99,
+      "category": 2,
+      "rating": 4.6,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-acrylic-marker-30mm-p269-12112_image.jpg",
+      "image": "montana-acrylic-marker-30mm-p269-12112_image.png"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003950574",
+      "name": "Montana Acrylic Marker 15mm",
+      "description": "The Montana 15mm Acrylic Marker is a high quality water based paint marker.",
+      "price": 3.99,
+      "category": 2,
+      "rating": 4,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-acrylic-marker-15mm-p268-555_image.jpg",
+      "image": "montana-acrylic-marker-15mm-p268-555_image.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003950576",
+      "name": "Montana Acrylic Marker 0.7mm Extra Fine",
+      "description": "The Montana Extra Fine Acrylic Marker is a high quality water based paint marker.",
+      "price": 2.49,
+      "category": 2,
+      "rating": 4.5,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-acrylic-marker-0-7mm-extra-fine-p267-553_image.jpg",
+      "image": "montana-acrylic-marker-0-7mm-extra-fine-p267-553_image.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960062",
+      "name": "Montana Acrylic Marker 2mm Fine",
+      "description": "The Montana Fine Acrylic Marker is a high quality water based paint marker.",
+      "price": 3.99,
+      "category": 2,
+      "rating": 3.8,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-acrylic-marker-2mm-fine-p266-15149_image.jpg",
+      "image": "montana-acrylic-marker-2mm-fine-p266-15149_image.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960682",
+      "name": "Dope Slug Marker",
+      "description": "The Dope Slug marker has a durable metal head nib which provides a thin line. It comes filled with alcohol based paint which is suitable for every kind of surface and is resistant to all weather conditions, which makes it difficult to buff.",
+      "price": 1.99,
+      "category": 2,
+      "rating": 5,
+      "brand": "DOPE",
+      "image_url": "https://www.graff-city.com/images/dope-slug-marker-p1499-12097_image.jpg",
+      "image": "dope-slug-marker-p1499-12097_image.png"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960775",
+      "name": "Dope Dripper 10mm",
+      "description": "The 10mm Dope Dripper is filled with highly opaque, permanent paint.",
+      "price": 3.65,
+      "category": 2,
+      "rating": 3,
+      "brand": "DOPE",
+      "image_url": "https://www.graff-city.com/images/dope-dripper-10mm-p3765-23371_image.jpg",
+      "image": "dope-dripper-10mm-p3765-23371_image.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003990736",
+      "name": "Dope Dripper 18mm",
+      "description": "The 18mm Dope Dripper is filled with highly opaque, permanent paint.",
+      "price": 5.35,
+      "category": 2,
+      "rating": 4.7,
+      "brand": "DOPE",
+      "image_url": "https://www.graff-city.com/images/dope-dripper-18mm-p3766-23388_image.jpg",
+      "image": "dope-dripper-18mm-p3766-23388_image.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003990746",
+      "name": "Clash Marker 6mm Bullet",
+      "description": "The Clash 6mm bullet tip markers are filled with permanent, gloss finish paint.",
+      "price": 3.99,
+      "category": 2,
+      "rating": 4,
+      "brand": "Clash",
+      "image_url": "https://www.graff-city.com/images/clash-marker-6mm-bullet-p2325-6182_image.jpg",
+      "image": "clash-marker-6mm-bullet-p2325-6182_image.png"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004111503",
+      "name": "Clash Marker 15mm Chisel",
+      "description": "The Clash 15mm markers are filled with permanent, gloss finish paint.",
+      "price": 6.99,
+      "category": 2,
+      "rating": 4.9,
+      "brand": "Clash",
+      "image_url": "https://www.graff-city.com/images/clash-marker-15mm-chisel-p2326-24782_image.jpg",
+      "image": "clash-marker-15mm-chisel-p2326-24782_image.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004230059",
+      "name": "Molotow Banana Universal Caps",
+      "description": "Works on all spray paint brands, great for outlines and detailed work.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 4.6,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-banana-universal-caps-p2868-18398_image.jpg",
+      "image": "molotow-banana-universal-caps-p2868-18398_image.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004310089",
+      "name": "Molotow Pink Dot Caps",
+      "description": "The pink dot fatcap sprays a large line and they are great for fills/fast applications.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 4.5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-pink-dot-caps-p2883-18399_image.jpg",
+      "image": "molotow-pink-dot-caps-p2883-18399_image.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004610254",
+      "name": "Molotow NY Fat Caps",
+      "description": "The NY fat is great for fills, tags and creating flares.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-ny-fat-caps-p2915-16377_image.jpg",
+      "image": "molotow-ny-fat-caps-p2915-16377_image.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004650050",
+      "name": "Molotow Blue Dot Soft Caps",
+      "description": "Great for stencils, blends, and fills.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 3,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-blue-dot-soft-caps-p2906-18413_image.jpg",
+      "image": "molotow-blue-dot-soft-caps-p2906-18413_image.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004821375",
+      "name": "Molotow Grey Dot Skinny Caps",
+      "description": "These caps produce a very fine line that makes them great for details and have a low pressure valve so they are easy to handle.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 4,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-grey-dot-skinny-caps-p2907-16374_image.jpg",
+      "image": "molotow-grey-dot-skinny-caps-p2907-16374_image.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004900522",
+      "name": "Molotow Standard Skinny Caps",
+      "description": "Creates a thin line, works with all cans.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 4.6,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-standard-skinny-caps-p2912-16381_image.jpg",
+      "image": "molotow-standard-skinny-caps-p2912-16381_image.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004910158",
+      "name": "Molotow Super Skinny Caps",
+      "description": "Properties: line with sharp edges, the cap does not clog and dry up fast.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 3.8,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-super-skinny-caps-p2888-16902_image.jpg",
+      "image": "molotow-super-skinny-caps-p2888-16902_image.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004910477",
+      "name": "Molotow Super Fat Caps",
+      "description": "These caps from Molotow will spray a very fat line.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 5,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-super-fat-caps-p2887-16901_image.jpg",
+      "image": "molotow-super-fat-caps-p2887-16901_image.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004940703",
+      "name": "Molotow Tube Cap 'Skinny' (White)",
+      "description": "Properties: very fine line, no clean edges, tends to form drips.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 3.7,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-tube-cap-skinny-white-p3312-17885_image.jpg",
+      "image": "molotow-tube-cap-skinny-white-p3312-17885_image.png"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991006",
+      "name": "Montana Orange Ultra Wide Cap",
+      "description": "Orange Ultra Wide spray cap which is set in a horizontal spray position, maximizes vertical stroke application and achieves a higher vertical spray reach.",
+      "price": 0.25,
+      "category": 3,
+      "rating": 5,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-orange-ultra-wide-cap-p4591-24965_image.jpg",
+      "image": "montana-orange-ultra-wide-cap-p4591-24965_image.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991162",
+      "name": "Montana Needle Fine Liner Cap",
+      "description": "The Needle Fine Liner (Purple) is the little sibling of the original Needle Cap. Its average spray width is 2mm-10mm making it a finer version. It achieves sketchy rough lines that are ideal for highlights, small details or rendering. The spray width changes with the used distance to the object. For skinnier lines, spray from a closer distance. For fatter lines, spray from a further distance.",
+      "price": 0.25,
+      "category": 3,
+      "rating": 4.5,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-needle-fine-liner-cap-p4179-22225_image.jpg",
+      "image": "montana-needle-fine-liner-cap-p4179-22225_image.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005000046",
+      "name": "Montana Flat Jet Wide Caps",
+      "description": "Flat Jet caps offer a flat spray trajectory that is able to be adjusted to a vertical or horizontal output similar to the Calligraphy Cap you may be used to.",
+      "price": 0.25,
+      "category": 3,
+      "rating": 3.9,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-flat-jet-wide-caps-p2893-16731_image.jpg",
+      "image": "montana-flat-jet-wide-caps-p2893-16731_image.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005070254",
+      "name": "Montana 6 New Level Caps",
+      "description": "A pack of 6 mixed caps from the new Montana level system.",
+      "price": 2.89,
+      "category": 3,
+      "rating": 4.7,
+      "brand": "Montana",
+      "image_url": "https://www.graff-city.com/images/montana-6-mixed-level-caps-p264-546_image.jpg",
+      "image": "montana-6-mixed-level-caps-p264-546_image.png"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005071145",
+      "name": "Kobra Fat Caps (5)",
+      "description": "Five MTN caps for all large applications.",
+      "price": 1.50,
+      "category": 3,
+      "rating": 3.3,
+      "brand": "Kobra",
+      "image_url": "https://www.graff-city.com/images/kobra-fat-caps-5-p2920-12362_image.jpg",
+      "image": "kobra-fat-caps-5-p2920-12362_image.png"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005140282",
+      "name": "Clash Super Skinny Caps",
+      "description": "Great for detailed work!",
+      "price": 0.25,
+      "category": 3,
+      "rating": 4,
+      "brand": "Clash",
+      "image_url": "https://www.graff-city.com/images/clash-super-skinny-caps-p2871-24801_image.jpg",
+      "image": "clash-super-skinny-caps-p2871-24801_image.jpg"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005200166",
+      "name": "Clash Calligraphy Caps (Black)",
+      "description": "The Calligraphy cap creates a calligraphy style line.",
+      "price": 0.25,
+      "category": 3,
+      "rating": 4.4,
+      "brand": "Clash",
+      "image_url": "https://www.graff-city.com/images/clash-calligraphy-caps-black-p3513-19055_image.jpg",
+      "image": "clash-calligraphy-caps-black-p3513-19055_image.jpg"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005210241",
+      "name": "A.K.A Colors Micro Cap",
+      "description": "Think line, direct shot, ideal for fine details.",
+      "price": 0.20,
+      "category": 3,
+      "rating": 4.5,
+      "brand": "A-K-A Colors",
+      "image_url": "https://www.graff-city.com/images/a-k-a-colors-micro-cap-p4062-21983_image.jpg",
+      "image": "a-k-a-colors-micro-cap-p4062-21983_image.jpg"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005280104",
+      "name": "A.K.A Colors Transversal Cap",
+      "description": "Very thick/wide stroke with adjustable insert, ideal for wide fillings and calligraphy.",
+      "price": 0.25,
+      "category": 3,
+      "rating": 5,
+      "brand": "A-K-A Colors",
+      "image_url": "https://www.graff-city.com/images/a-k-a-colors-transversal-cap-p4066-22120_image.jpg",
+      "image": "a-k-a-colors-transversal-cap-p4066-22120_image.jpg"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005310360",
+      "name": "3M 4251 Respirator",
+      "description": "High quality protection mask from 3M with FFA1P2 organic vapour / dust protection.",
+      "price": 36.75,
+      "category": 4,
+      "rating": 5,
+      "brand": "3M",
+      "image_url": "https://www.graff-city.com/images/3m-4251-respirator-p4042-21895_image.jpg",
+      "image": "3m-4251-respirator-p4042-21895_image.jpg"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005330595",
+      "name": "3M Aura 9332+ FFP3 Valve Particulate Respirator",
+      "description": "The 3M Aura 9332+ FFP3 valved particulate respirator is a market leader for respiratory protection, it combines comfort and style without compromising performance. The Aura 9300+ series gives you tested and approved protection. The specially designed Polyurethane nose foam absorbs sweat and is gentle on the skin.",
+      "price": 11.99,
+      "category": 4,
+      "rating": 4.9,
+      "brand": "3M",
+      "image_url": "https://www.graff-city.com/images/3m-aura-9332-ffp3-valve-particulate-respirator-p4057-21958_image.jpg",
+      "image": "3m-4251-respirator-p4042-21895_image.jpg"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005330596",
+      "name": "3M Respirator Set - Medium",
+      "description": "This professional mask protects from organic fumes and stood the test of a regular use indoor and outdoor, successfully.",
+      "price": 69.99,
+      "category": 4,
+      "rating": 4,
+      "brand": "3M",
+      "image_url": "https://www.graff-city.com/images/3m-respirator-set-medium-p4058-21959_image.jpg",
+      "image": "3m-respirator-set-medium-p4058-21959_image.jpg"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430914",
+      "name": "3M 7500 Half Mask (No Filters)",
+      "description": "The 7500 Series offers exceptionally high levels of wearer comfort and a good fit across a broad range of face shapes & sizes. Suitable for a broad range of industrial applications, the innovative comfort features help to ensure that the respirator is worn consistently over long periods.",
+      "price": 30.99,
+      "category": 4,
+      "rating": 4,
+      "brand": "3M",
+      "image_url": "https://www.graff-city.com/images/3m-7500-half-mask-no-filters-p4251-23078_image.jpg",
+      "image": "3m-7500-half-mask-no-filters-p4251-23078_image.jpg"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430944",
+      "name": "3M 7500 Half Face Mask + 6051 Filter - Medium",
+      "description": "The 7500 Series offers exceptionally high levels of wearer comfort and a good fit across a broad range of face shapes & sizes. Suitable for a broad range of industrial applications, the innovative comfort features help to ensure that the respirator is worn consistently over long periods.",
+      "price": 32.99,
+      "category": 4,
+      "rating": 4.5,
+      "brand": "3M",
+      "image_url": "https://www.graff-city.com/images/3m-7500-half-face-mask-6051-filter-medium-p4252-23080_image.jpg",
+      "image": "3m-7500-half-face-mask-6051-filter-medium-p4252-23080_image.jpg"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005510265",
+      "name": "3M Aura 1863+ - FFP3 Mask",
+      "description": "3M™ Aura™ Particulate Healthcare Respirator 1863+ is our foldable, 3-panel respirator with a sculpted nose panel that conforms to a broad range of face shapes. This FFP3 disposable respirator features a lightweight, balanced design.",
+      "price": 20.99,
+      "category": 4,
+      "rating": 4.7,
+      "brand": "3M",
+      "image_url": "https://www.graff-city.com/images/3m-aura-1863-ffp3-mask-p4299-23530_image.jpg",
+      "image": "3m-aura-1863-ffp3-mask-p4299-23530_image.jpg"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005520201",
+      "name": "Graff-City Black Washable Hygiene Face Mask",
+      "description": "Black face mask.",
+      "price": 0.40,
+      "category": 4,
+      "rating": 4.3,
+      "brand": "Graff City",
+      "image_url": "https://www.graff-city.com/images/graff-city-black-washable-face-mask-p4178-22224_image.jpg",
+      "image": "graff-city-black-washable-face-mask-p4178-22224_image.jpg"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005520205",
+      "name": "Molotow - Defender Mask - A1P1",
+      "description": "Respirator mask for protection against organic vapours.",
+      "price": 35.50,
+      "category": 4,
+      "rating": 4.2,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-defender-mask-a1p1-p4162-22172_image.jpg",
+      "image": "molotow-defender-mask-a1p1-p4162-22172_image.png"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630545",
+      "name": "Molotow - Black Mask - A1P1",
+      "description": "A1-P1 filter (replaceable) ready for use.",
+      "price": 40.99,
+      "category": 4,
+      "rating": 4.3,
+      "brand": "Molotow",
+      "image_url": "https://www.graff-city.com/images/molotow-black-mask-a1p1-p4163-22168_image.jpg",
+      "image": "molotow-black-mask-a1p1-p4163-22168_image.jpg"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630605",
+      "name": "Kobra BLS Zer0 30 C - FFP3 RD",
+      "description": "Made with a new soft technical foam, which allows an excellent fit on any face and guarantees a high comfort on contact with the skin.",
+      "price": 5.99,
+      "category": 4,
+      "rating": 4.6,
+      "brand": "Kobra",
+      "image_url": "https://www.graff-city.com/images/kobra-bls-zer0-30-c-ffp3-r-d-p4593-24972_image.jpg",
+      "image": "kobra-bls-zer0-30-c-ffp3-r-d-p4593-24972_image.jpg"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630637",
+      "name": "Kobra - 4000S Half Mask + Filters",
+      "description": "The Kobra 4000 mask is designed specifically for artists and for everyone using spray paint as a professional tool. Thanks to BLS experience and technology maximum comfort and maximum protection are guaranteed.",
+      "price": 45.50,
+      "category": 4,
+      "rating": 4.7,
+      "brand": "Kobra",
+      "image_url": "https://www.graff-city.com/images/kobra-4000s-half-mask-filters-p4594-24973_image.jpg",
+      "image": "kobra-4000s-half-mask-filters-p4594-24973_image.jpg"
+    }
+  }
+]
