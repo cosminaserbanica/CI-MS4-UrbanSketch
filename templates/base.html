@@ -17,10 +17,10 @@
     {% block corecss %}
     <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block extra_css %}
-      <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block corejs %}
@@ -96,6 +96,20 @@
               </li>
           </ul>
         </div>
+      </div>
+      <div class="row bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            {% include 'includes/mobile-top-header.html' %}
+            {% include 'includes/main-nav.html' %}
+        </nav>
+      </div>
+      <div id="delivery-banner" class="row text-center">
+        <div class="col delivery-offer">
+            <h4 class="logo-font my-1">Spend £ {{ free_delivery_threshold }} and get free delivery! <i class="fas fa-shipping-fast"></i></h4>          
+        </div>            
       </div>
     </header>
 
