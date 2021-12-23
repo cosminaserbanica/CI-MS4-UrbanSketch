@@ -134,6 +134,18 @@ html {
   transition-delay: 0.75s;
 }
 
+#topnav{
+  background-color: rgb(44, 6, 44) !important;
+}
+
+.nav-link {
+  color: #fad3f7;
+}
+
+.nav-link:hover{
+  color: #8d8a8d;
+}
+
 @media screen and (max-width: 500px) {
   .logo-img {
     width: 90%;
