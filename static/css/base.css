@@ -156,6 +156,16 @@ html {
   }
 }
 
+#delivery-banner {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.delivery-offer {
+  background-color: rgb(44, 6, 44) !important;
+  color: #fad3f7 !important;
+}
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
