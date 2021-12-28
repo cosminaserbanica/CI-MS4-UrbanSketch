@@ -4,13 +4,13 @@
           <a href="{% url 'products' %}" class="dropdown-item"><strong>All Products</strong></a>
         </li>
         <li class="nav-item dropdown">
-          <a href="" class="dropdown-item"><strong>Spray Cans</strong></a>
+          <a href="{% url 'products' %}?category=spray_cans" class="dropdown-item"><strong>Spray Cans</strong></a>
         </li>
         <li class="nav-item dropdown">
-          <a href="" class="dropdown-item"><strong>Replacement Caps</strong></a>
+          <a href="{% url 'products' %}?category=replacement_caps" class="dropdown-item"><strong>Replacement Caps</strong></a>
         </li>
         <li class="nav-item dropdown">
-          <a href="" class="dropdown-item"><strong>Safety and Protection</strong></a>
+          <a href="{% url 'products' %}?category=safety_protection" class="dropdown-item"><strong>Safety and Protection</strong></a>
         </li>
     </ul>
 </div>
