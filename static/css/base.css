@@ -165,6 +165,22 @@ html {
 	z-index: -1;
 }
 
+.btn-outline-black, .add-bag-btn {
+  background: white;
+  color: black !important; /* use important to override link colors for <a> elements */
+  border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus,
+.add-bag-btn:hover,
+.add-bag-btn:active,
+.add-bag-btn:focus {
+  background: rgb(44, 6, 44);
+  color: white !important;
+}
+
 @media screen and (max-width: 500px) {
   .logo-img {
     width: 90%;
