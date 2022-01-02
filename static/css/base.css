@@ -181,6 +181,16 @@ html {
   color: white !important;
 }
 
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
+.table-responsive {
+  max-width: 95%;
+}
+
 @media screen and (max-width: 500px) {
   .logo-img {
     width: 90%;
