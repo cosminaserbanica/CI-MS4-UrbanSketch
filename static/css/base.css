@@ -2,6 +2,12 @@ html {
   height: 100%;
 }
 
+body {
+  max-width: 2000px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
 #index-body {
   background: url('/media/grafitti.png') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -144,6 +150,14 @@ html {
 
 .nav-link:hover{
   color: #8d8a8d;
+}
+
+.header-container {
+  margin-top: 200px;
+}
+
+.logo-font {
+  margin-top: 60px;
 }
 
 /* from Bulma */
@@ -341,19 +355,26 @@ select option[value=""] {
       left: 0;
       z-index: 1030;
   }
-
-  .header-container {
-      padding-top: 164px;
-  }
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-  .header-container {
-      padding-top: 116px;
-  }
-
   body {
       height: calc(100vh - 116px);
+  }
+  .navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(44, 6, 44);
+    margin-bottom: 30px;
+  }
+
+  .bag-col {
+    margin-top: 65px;
+  }
+
+  .product-col {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
