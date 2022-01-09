@@ -30,18 +30,18 @@ card.mount('#card-element');
 
 // Handle realtime validation errors on the card element
 card.addEventListener('change', function (event) {
-  var errorDiv = document.getElementById('card-errors');
-  if (event.error) {
-      var html = `
-          <span class="icon" role="alert">
-              <i class="fas fa-times"></i>
-          </span>
-          <span>${event.error.message}</span>
-      `;
-      $(errorDiv).html(html);
-  } else {
-      errorDiv.textContent = '';
-  }
+    var errorDiv = document.getElementById('card-errors');
+    if (event.error) {
+        var html = `
+            <span class="icon" role="alert">
+                <i class="fas fa-times"></i>
+            </span>
+            <span>${event.error.message}</span>
+        `;
+        $(errorDiv).html(html);
+    } else {
+        errorDiv.textContent = '';
+    }
 });
 
 // Handle form submit
@@ -77,7 +77,7 @@ form.addEventListener('submit', function(ev) {
                         line2: $.trim(form.street_address2.value),
                         city: $.trim(form.town_or_city.value),
                         country: $.trim(form.country.value),
-                        county: $.trim(form.county.value),
+                        state: $.trim(form.county.value),
                     }
                 }
             },
@@ -90,7 +90,7 @@ form.addEventListener('submit', function(ev) {
                     city: $.trim(form.town_or_city.value),
                     country: $.trim(form.country.value),
                     postal_code: $.trim(form.postcode.value),
-                    county: $.trim(form.county.value),
+                    state: $.trim(form.county.value),
                 }
             },
         }).then(function(result) {
