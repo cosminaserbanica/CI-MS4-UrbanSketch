@@ -86,8 +86,8 @@
                       <div class="text-center">
                           <div><i class="fas fa-heart fa-lg"></i></div>
                           <p class="my-0">
-                              {% if wishlist_items_count %}
-                                  {{ wishlist_items_count }}
+                              {% if wishlist.count %}
+                                  {{ wishlist.count }}
                               {% else %}
                                   0
                               {% endif %}

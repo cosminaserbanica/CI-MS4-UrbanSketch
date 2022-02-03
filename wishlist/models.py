@@ -10,4 +10,4 @@ class WishList(models.Model):
     user = models.ForeignKey(User, null=True, blank=True, on_delete=models.SET_NULL)
     
     def __str__(self):
-        return self.product_sku
+        return self.product.sku

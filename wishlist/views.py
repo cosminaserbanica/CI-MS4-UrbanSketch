@@ -10,7 +10,9 @@ from wishlist.models import WishList
 
 @login_required
 def wishlist(request):
-    return render(request, "wishlist/wishlist.html")
+    wishlist = WishList.objects.filter(user = request.user)
+    print('check', wishlist)
+    return render(request, "wishlist/wishlist.html", {'wishlist':wishlist})
 
 @login_required
 def add_to_wishlist(request, product_id):

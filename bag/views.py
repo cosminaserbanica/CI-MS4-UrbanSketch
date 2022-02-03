@@ -14,8 +14,15 @@ def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
     product = get_object_or_404(Product, pk=item_id)
-    quantity = int(request.POST.get('quantity'))
+    quantity = request.POST.get('quantity')
+    if quantity is None:
+        quantity = 1
+    else:
+        quantity = int(request.POST.get('quantity'))
+
     redirect_url = request.POST.get('redirect_url')
+    if redirect_url is None:
+        redirect_url = request.META["HTTP_REFERER"]
     color = None
     if 'product_color' in request.POST:
         color = request.POST['product_color']

@@ -3,7 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
-
+from wishlist.models import WishList
 from .models import Product, Category
 from .forms import ProductForm
 
@@ -49,12 +49,30 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
-    context = {
-        'products': products,
-        'search_term': query,
-        'current_categories': categories,
-        'current_sorting': current_sorting,
-    }
+    try:
+        wishlist = WishList.objects.filter(user=request.user)
+        context = {
+            'wishlist': wishlist,
+            'products': products,
+            'search_term': query,
+            'current_categories': categories,
+            'current_sorting': current_sorting,
+
+        }
+    except:
+        context = {
+            'products': products,
+            'search_term': query,
+            'current_categories': categories,
+            'current_sorting': current_sorting,
+        }
+
+    # context = {
+    #     'products': products,
+    #     'search_term': query,
+    #     'current_categories': categories,
+    #     'current_sorting': current_sorting,
+    # }
 
     return render(request, 'products/products.html', context)
 
@@ -64,10 +82,21 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
-    context = {
-        'product': product,
-    }
 
+
+    try:
+        wishlist = WishList.objects.filter(user=request.user)
+        context = {
+            'wishlist': wishlist,
+            'product': product,
+        }
+    except:
+        context = {
+            'product': product,
+        }
+    # context = {
+    #     'product': product,
+    # }
     return render(request, 'products/product_detail.html', context)
 
 
@@ -90,9 +119,21 @@ def add_product(request):
         form = ProductForm()
         
     template = 'products/add_product.html'
-    context = {
-        'form': form,
-    }
+    try:
+        wishlist = WishList.objects.filter(user=request.user)
+        context = {
+            'wishlist': wishlist,
+            'form': form,
+
+        }
+    except:
+        context = {
+            'form': form,
+        }
+
+    # context = {
+    #     'form': form,
+    # }
 
     return render(request, template, context)
 
@@ -118,10 +159,24 @@ def edit_product(request, product_id):
         messages.info(request, f'You are editing {product.name}')
 
     template = 'products/edit_product.html'
-    context = {
-        'form': form,
-        'product': product,
-    }
+    try:
+        wishlist = WishList.objects.filter(user=request.user)
+        context = {
+            'wishlist': wishlist,
+            'form': form,
+            'product': product,
+
+        }
+    except:
+        context = {
+            'form': form,
+            'product': product,
+        }
+
+    # context = {
+    #     'form': form,
+    #     'product': product,
+    # }
 
     return render(request, template, context)
 

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpR
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
-
+from wishlist.models import WishList
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 
@@ -127,11 +127,21 @@ def checkout(request):
         messages.warning(request, 'Stripe public key is missing')
 
     template = 'checkout/checkout.html'
-    context = {
-        'order_form': order_form,
-        'stripe_public_key': stripe_public_key,
-        'client_secret': intent.client_secret,
-    }
+    try:
+        wishlist = WishList.objects.filter(user=request.user)
+        context = {
+            'wishlist':wishlist,
+            'order_form': order_form,
+            'stripe_public_key': stripe_public_key,
+            'client_secret': intent.client_secret,
+
+        }
+    except:
+        context = {
+            'order_form': order_form,
+            'stripe_public_key': stripe_public_key,
+            'client_secret': intent.client_secret,
+        }
 
     return render(request, template, context)
 
@@ -172,8 +182,21 @@ def checkout_success(request, order_number):
         del request.session['bag']
 
     template = 'checkout/checkout_success.html'
-    context = {
-        'order': order,
-    }
+    try:
+        wishlist = WishList.objects.filter(user=request.user)
+        context = {
+            'wishlist': wishlist,
+            'order': order,
+        }
+    except:
+        context = {
+            'order': order,
+        }
+
+    # context = {
+    #     'order': order,
+    # }
+
+
 
     return render(request, template, context)
