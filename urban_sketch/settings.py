@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-&hz!1fjb-64%$_2s$0=n5u_w48t9btfv7w0sc8&v5y6@-*ezgn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['urbansketch.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['urbansketch.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
