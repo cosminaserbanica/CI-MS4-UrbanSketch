@@ -160,6 +160,13 @@ body {
   margin-top: 60px;
 }
 
+.dropdown-menu {
+  background-color: rgb(44, 6, 44);
+}
+
+.dropdown-option {
+  color: #fad3f7;
+}
 /* from Bulma */
 .icon {
   align-items: center;
@@ -243,7 +250,7 @@ footer {
 }
 
 .social-icons i {
-  color: #fad3f7;;
+  color: #fad3f7;
   padding:23px;
 }
 
