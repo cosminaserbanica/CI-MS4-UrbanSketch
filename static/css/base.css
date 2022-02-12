@@ -179,7 +179,7 @@ body {
 	z-index: -1;
 }
 
-.btn-outline-black, .add-bag-btn {
+.btn-outline-black, .btn-black {
   background: white;
   color: black !important; /* use important to override link colors for <a> elements */
   border: 1px solid black;
@@ -188,9 +188,9 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus,
-.add-bag-btn:hover,
-.add-bag-btn:active,
-.add-bag-btn:focus {
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
   background: rgb(44, 6, 44);
   color: white !important;
 }
@@ -219,6 +219,38 @@ body {
 .toast-capper {
   height: 2px;
 }
+
+.btt-button {
+  height: 42px;
+  width: 42px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+footer {
+  background-color: rgb(44, 6, 44) !important;
+}
+
+/* Social Media Styling */
+.social-icons {
+  text-align: center;
+  margin-bottom: 0px; 
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons i {
+  color: #fad3f7;;
+  padding:23px;
+}
+
+.social-icons i:hover {
+  color: rgb(108, 198, 240);
+}
+
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
@@ -492,6 +524,10 @@ color: #17a2b8; /* text-info */
       z-index: 1030;
   }
 
+  .product-details-container {
+    padding-top: 30px;
+  }
+
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -533,5 +569,9 @@ body {
   .product-col {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .dropdown-item {
+    color: #fad3f7;
   }
 }
