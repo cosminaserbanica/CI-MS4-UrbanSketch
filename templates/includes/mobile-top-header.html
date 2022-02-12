@@ -1,4 +1,4 @@
-<ul>
+<ul style= "display: flex;">
   <li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
@@ -41,7 +41,7 @@
           {% endif %}
       </div>
   </li>
-<li class="list-inline-item">
+  <li class="list-inline-item">
                   <a class="{% if wishlist_items_count %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'wishlist' %}">
                       <div class="text-center">
                           <div><i class="fas fa-heart fa-lg"></i></div>
@@ -54,7 +54,7 @@
                           </p>
                       </div>
                   </a>
-              </li>
+  </li>
 
   <li class="list-inline-item">
       <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
