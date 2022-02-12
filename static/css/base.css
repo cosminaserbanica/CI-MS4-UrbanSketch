@@ -574,4 +574,10 @@ body {
   .dropdown-item {
     color: #fad3f7;
   }
+
+  #button-shop {
+    color: #570f4b;
+    background: #f3b2f5;
+    box-shadow: 0 0 10px #f3b2f5, 0 0 40px #f3b2f5, 0 0 80px #f3b2f5;
+  }
 }
