@@ -1,3 +1,3 @@
-[![Mock-up](media/mockup.png)](https://urbansketch.herokuapp.com) 
+![UrbanSKetch Mockup Images](/media/mockup.png) 
 
-[UrbanSketch - Live Site](https://urbansketch.herokuapp.com)  
+[View Live Site here](https://urbansketch.herokuapp.com)  
