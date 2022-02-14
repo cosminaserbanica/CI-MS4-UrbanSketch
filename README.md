@@ -1,6 +1,5 @@
 ![UrbanSKetch Mockup Images](/media/mockup.PNG) 
 
-<<<<<<< HEAD
 [View Live Site here](https://urbansketch.herokuapp.com) 
 
 ------
@@ -45,7 +44,4 @@
   * [Testing User Stories](#testing-user-stories)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
-------  
-=======
-[View Live Site here](https://urbansketch.herokuapp.com)  
->>>>>>> 7533cc2790f87869bb6ce8162c088939e78aa500
+------
