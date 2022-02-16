@@ -127,21 +127,6 @@ def checkout(request):
         messages.warning(request, 'Stripe public key is missing')
 
     template = 'checkout/checkout.html'
-    try:
-        wishlist = WishList.objects.filter(user=request.user)
-        context = {
-            'wishlist':wishlist,
-            'order_form': order_form,
-            'stripe_public_key': stripe_public_key,
-            'client_secret': intent.client_secret,
-
-        }
-    except:
-        context = {
-            'order_form': order_form,
-            'stripe_public_key': stripe_public_key,
-            'client_secret': intent.client_secret,
-        }
 
     return render(request, template, context)
 
@@ -182,21 +167,9 @@ def checkout_success(request, order_number):
         del request.session['bag']
 
     template = 'checkout/checkout_success.html'
-    try:
-        wishlist = WishList.objects.filter(user=request.user)
-        context = {
-            'wishlist': wishlist,
-            'order': order,
-        }
-    except:
-        context = {
-            'order': order,
-        }
 
-    # context = {
-    #     'order': order,
-    # }
-
-
+    context = {
+        'order': order,
+    }
 
     return render(request, template, context)

@@ -2,6 +2,7 @@ from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
+from wishlist.models import WishList
 
 def bag_contents(request):
 
@@ -41,7 +42,10 @@ def bag_contents(request):
     
     grand_total = delivery + total
     
+    wishlist_count = WishList.objects.filter(user=request.user).count() if request.user.is_authenticated else 0
+
     context = {
+        'wishlist_count': wishlist_count,
         'bag_items': bag_items,
         'total': total,
         'product_count': product_count,

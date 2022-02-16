@@ -25,26 +25,12 @@ def profile(request):
     orders = profile.orders.all()
 
     template = 'profiles/profile.html'
-    try:
-        wishlist = WishList.objects.filter(user=request.user)
-        context = {
-            'wishlist': wishlist,
-            'form': form,
-            'orders': orders,
-            'on_profile_page': True
-        }
-    except:
-        context = {
-            'form': form,
-            'orders': orders,
-            'on_profile_page': True
-        }
 
-    # context = {
-    #     'form': form,
-    #     'orders': orders,
-    #     'on_profile_page': True
-    # }
+    context = {
+        'form': form,
+        'orders': orders,
+        'on_profile_page': True
+    }
 
     return render(request, template, context)
 
@@ -59,22 +45,10 @@ def order_history(request, order_number):
     ))
 
     template = 'checkout/checkout_success.html'
-    try:
-        wishlist = WishList.objects.filter(user=request.user)
-        context = {
-            'wishlist': wishlist,
-            'order': order,
-            'from_profile': True,
-        }
-    except:
-        context = {
-            'order': order,
-            'from_profile': True,
-        }
 
-    # context = {
-    #     'order': order,
-    #     'from_profile': True,
-    # }
+    context = {
+        'order': order,
+        'from_profile': True,
+    }
 
     return render(request, template, context)
