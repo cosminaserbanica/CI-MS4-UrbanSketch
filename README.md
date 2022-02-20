@@ -14,15 +14,12 @@
   * [User Stories](#user-stories)
 - [Scope](#scope)
   * [Features](#features)
-    + [Implemented Features](#implemented-features)
-    + [Future Features](#future-features)
   * [Skeleton](#skeleton)
   * [Surface](#surface)
     + [Color Scheme](#color-scheme)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
   * [Frameworks, Libraries, Programs & Platforms Used:](#frameworks--libraries--programs---platforms-used-)
-- [Bugs & Fixes](#bugs---fixes)
 - [Deployment](#deployment)
   * [Deployment Steps](#deployment-steps)
   * [Project and Repository Creation](#project-and-repository-creation)
@@ -139,8 +136,37 @@ ___
     * Customers to be able to read product reviews prior to making a purchase.  
     * Customers to be able to write product reviews after making a purchase. 
     * To be able to maintain & update the website via an Admin panel.  
-    * To be able to add, edit, update or delete products from the website.  
-    * To be able to add, edit, update or delete blog posts from the website.  
-  
+    * To be able to add, edit, update or delete products from the website.
 
-[:top:](#UrbanSketch)
+# Scope  
+------  
+
+## Features  
+
+* A Navigation bar to guide the user experience across the website; 
+* A search box within the Navbar for a quick search option; 
+* Products divided into categories;  
+* Ability to filter products by Price, Brand or Rating;  
+* An option to create a User Profile;
+* An option to add products to a user wishlist;  
+* An option to add product reviews;  
+
+## Skeleton
+------  
+   
+*  __Desktop Wireframe__
+![Desktop Wireframe](media/desktop-wireframe.png)  
+  
+*  __Tablet Wireframe__
+![Tablet Wireframe](media/tablet-wireframe.png)  
+    
+*  __Mobile Wireframe__
+![Desktop Wireframe](media/mobile-wireframe.png)
+
+## Surface 
+-----
+### Color Scheme  
+  
+I have chosen a different shades of purple to match the colour from the graffiti background image on the landing page. Purple is also a vibrant stand out colour which is ideal for an activity such a graffiti.  
+![color palette](media/urbancolors.png)  
+For the color palette I used [Coolors](https://coolors.co/).  
