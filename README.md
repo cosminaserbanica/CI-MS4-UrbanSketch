@@ -155,13 +155,13 @@ ___
 ------  
    
 *  __Desktop Wireframe__
-![Desktop Wireframe](media/desktop-wireframe.png)  
+![Desktop Wireframe](media/desktop-wireframe.PNG)  
   
 *  __Tablet Wireframe__
-![Tablet Wireframe](media/tablet-wireframe.png)  
+![Tablet Wireframe](media/tablet-wireframe.PNG)  
     
 *  __Mobile Wireframe__
-![Desktop Wireframe](media/mobile-wireframe.png)
+![Desktop Wireframe](media/mobile-wireframe.PNG)
 
 ## Surface 
 -----
