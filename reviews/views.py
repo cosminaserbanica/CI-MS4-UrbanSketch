@@ -7,6 +7,7 @@ from .forms import ReviewForm
 from products.models import Product
 from profiles.models import UserProfile
 
+# Code adapted from https://github.com/StephenJ2020/Sportmaster/tree/main/reviews
 
 @login_required
 def add_review(request, product_id):

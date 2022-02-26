@@ -3,6 +3,7 @@ from django.db import models
 from profiles.models import UserProfile
 from products.models import Product
 
+# Code adapted from https://github.com/StephenJ2020/Sportmaster/tree/main/reviews
 
 # Review system model
 class Review(models.Model):
