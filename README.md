@@ -170,3 +170,246 @@ ___
 I have chosen a different shades of purple to match the colour from the graffiti background image on the landing page. Purple is also a vibrant stand out colour which is ideal for an activity such a graffiti.  
 ![color palette](media/urbancolors.png)  
 For the color palette I used [Coolors](https://coolors.co/).  
+
+# Technologies Used  
+------  
+## Languages  
+-  [__HTML5__](https://en.wikipedia.org/wiki/HTML5)
+
+*  [__CSS3__](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
+ 
+-  [__Javascript__](https://en.wikipedia.org/wiki/JavaScript)  
+  
+-  [__Python__](https://en.wikipedia.org/wiki/Python_(programming_language))  
+
+## Frameworks, Libraries, Programs & Platforms Used:   
+
+* [__Django 3.2__](https://www.djangoproject.com/) This was the main framework used to build the app. 
+  - Django extensions used  
+     * [Django Allauth](https://django-allauth.readthedocs.io/en/latest/)  
+     * [Django Countries](https://pypi.org/project/django-countries/)  
+     * [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)  
+     * [Django-Storages](https://django-storages.readthedocs.io/en/latest/)  
+* [__jquery 3.6.0__](https://blog.jquery.com/) Javascript framework used to create some of the site's interactive functions.  
+* [__Bootstrap 4__](https://getbootstrap.com/docs/4.1/getting-started/introduction/) Bootstrap Grid was used for responsiveness as well as features such as accordion.  
+* [__Jinja__](https://jinja.palletsprojects.com/en/3.0.x/templates/) Was used to create the Python templates.   
+* [__Heroku__](https://heroku.com/) The cloud platform for deploying the app.  
+* [__SQlite3__](https://www.sqlite.org/index.html) The database used for development.  
+* [__Heroku Postgres__](https://www.heroku.com/postgres/) PostgreSQL is the database used for the production site. 
+* [__Stripe__](https://stripe.com/ie) Online payment system.
+* [__AWS-S3__](https://aws.amazon.com/s3/) Amazon Object storage service.  
+* [__VS Code__](https://code.visualstudio.com/download) VS Code was the IDE used to create the site and for version control.  
+* [__Github__](https://github.com/) GitHub is used to store the projects code after being pushed from Gitpod.  
+* [__Canva__](https://canva.com) Canva was used to create wireframes during the design process.
+* [__Django Secret Key Generator__](https://miniwebtool.com/django-secret-key-generator/) to generate the required key.   
+* [__Fontawesome__](https://fontawesome.com) Font Awesome was used for the Icons throughout the site.  
+* [__coolors.co__](https://coolors.co/384364-ffd2b0-f6f7eb-cccccc-333333) used for colour palette selection.   
+* Mozilla DevTools used for debugging and testing.  
+* Google DevTools used for debugging and testing.  
+* [__W3Scool__](https://www.w3schools.com/) used as a general source of information.  
+* [__Unsplash__](https://unsplash.com/) used to download images for the website.  
+* [__Stackoverflow__](https://stackoverflow.com/) used as one of my main sources of information.  
+* [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.  
+* [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.  
+* [__Jshint Validatior__](https://jshint.com/) Used to test Javascript / JQuery code validation.
+* [__PEP8 Validatior__](http://pep8online.com/) Used to test that Python code is PEP8 compliant.
+* [__BlueTree Screenfly__](https://bluetree.ai/) used to check if code is Mobile Friendly.  
+* [__Techsini__](https://techsini.com/) used to create Mock-up images to represent the site's responsiveness.  
+
+# Deployment  
+------  
+  
+## Deployment Steps  
+  
+This project was built using VSCode and pushed to Github using the terminal interface. However, as Github can only host static websites the project had to be deployed to Heroku as it is compatible for hosting a back-end focused site.    
+    
+## Project and Repository Creation  
+ 1. Navigate to [Github](https://github.com).  
+ 2. Create a new repository by first clicking the green button labeled new on the top left of the screen.  
+ 3. Select the Code Institute template in the templates section.  
+ 4. Name the repository i.e. UrbanSketch.  
+ 5. Click the green 'Create Repository' button at the bottom of the page.  
+ 6. Inside your IDE i.e. VS Code open the newly created repository.   
+ 7. Use the git add . command to add all modified and new files to the staging area.  
+ 8. Use the git commit -m command to commit a change to the local repository.  
+ 9. Use the git push command to push all committed changes to github.  
+   
+Before deploying the website to Heroku, the following three must be followed to allow the app to work in Heroku:
+
+ 1. Create requirements.txt file that contains the names of packages being used in Python. It is important to update this file if other packages or modules are installed during project development by using the following command:  
+  
+    -pip install -r requirements.txt  
+
+ 2. Create Procfile that contains the name of the application file so that Heroku knows what to run. If the Procfile has a blank line when it is created remove this as this may cause problems.  
+  
+ 3. Push these files to GitHub.  
+  
+ 4. Install psycopg2 and dj_datatbase_url in your workspace cli.  
+  
+Once those steps are done, the website can be deployed in Heroku using the steps listed below:  
+  
+### Deployment Steps  
+ 1. Log into Heroku .  
+ 2. Click the New button.  
+ 3. Click the option to create a new app.  
+ 4. Enter the app name in lowercase letters.  
+ 5. Select the correct geographical region.  
+   
+### Connect Heroku app to Github repository  
+ 1. In heroku select the deploy tab.  
+ 2. Click github button.  
+ 3. Enter the repository name and click search.  
+ 4. Select the relevant repository and click connect.  
+  
+### Add Heroku Postgres Database  
+ 1. Click the resources tab in heroku.  
+ 2. Under Add-ons search for heroku postgres.  
+ 3. Click on heroku postgres when it appears.  
+ 4. Select the Hobby Dev-Free option in plans.  
+ 5. Click submit order form.  
+  
+### Setting up environment variables   
+ 1. In the heroku settings click the reveal config vars button and set the following variables:   
+   - SECRET_KEY   
+   - DATABASE_URL  
+   - AWS_ACCESS_KEY_ID  
+   - AWS_SECRET_ACCESS_KEY  
+   - USE_AWS  
+   - STRIPE_PUBLIC_KEY  
+   - STRIPE_SECRET_KEY  
+   - STRIPE_WH_SECRET  
+   - EMAIL_HOST_PASSWORD  
+   - EMAIL_HOST_USER  
+* The values of all these have been kept secret in keeping with best security practices.
+    
+* I used miniwebtool's [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) to generate the required key.  
+   
+### Setting up the AWS s3 bucket  
+ 1. Create an Amazon AWS account  
+ 2. Search for S3 and create a new bucket  
+    * Allow public access  
+ 3. Under Properties > Static website hosting  
+    * Enable  
+    * index.html as index.html  
+    * save  
+ 4. Under Permissions > CORS use the following:  
+[  
+  {  
+      "AllowedHeaders": [  
+          "Authorization"  
+      ],  
+      "AllowedMethods": [  
+          "GET"  
+      ],  
+      "AllowedOrigins": [  
+          "*"  
+      ],  
+      "ExposeHeaders": []  
+  }  
+]    
+  
+  5. Under Permissions > Bucket Policy:  
+     * Generate Bucket Policy and take note of Bucket ARN  
+     * Chose S3 Bucket Policy as Type of Policy  
+     * For Principal, enter *  
+     * Enter ARN noted above  
+     * Add Statement  
+     * Generate Policy  
+     * Copy Policy JSON Document  
+     * Paste policy into Edit Bucket policy on the previous tab  
+     * Save changes  
+  6. Under Access Control List (ACL):  
+     * For Everyone (public access), tick List  
+     * Accept that everyone in the world may access the Bucket  
+     * Save changes  
+
+### AWS IAM (Identity and Access Management) setup  
+  
+ 1. From the IAM dashboard within AWS, select User Groups:  
+    * Create a new group
+    * Click through and Create Group  
+      
+ 2. Select Policies:  
+    * Create policy  
+    * Under JSON tab, click Import managed policy  
+    * Choose AmazongS3FullAccess  
+    * Edit the resource to include the Bucket ARN noted earlier when creating the Bucket Policy  
+    * Click next step and go to Review policy  
+    * Give the policy a name and description of your choice  
+    * Create policy  
+      
+ 3. Go back to User Groups and choose the group created earlier  
+    * Under Permissions > Add permissions, choose Attach Policies and select the one just created   
+    *   Add permissions 
+  
+ 4. Under Users:  
+    * Choose a user name  
+    * Select Programmatic access as the Access type  
+    * Click Next  
+    * Add the user to the Group just created  
+    * Click Next and Create User  
+  
+    
+ 5. Download the .csv containing the access key and secret access key.  
+    * THE .csv FILE IS ONLY AVAILABLE ONCE AND CANNOT BE DOWNLOADED AGAIN. (so I suggest you save a copy in a secure location)  
+  
+### Connecting Heroku to AWS S3  
+
+ 1. Install boto3 and django-storages  
+    * pip3 install boto3    
+    * pip3 install django-storages  
+    * pip3 freeze > requirements.txt  
+ 2. Add the values from the .csv you downloaded to your Heroku Config Vars under Settings:  
+ 3. Delete the DISABLE_COLLECTSTATIC variable from your Cvars and deploy your Heroku app  
+ 4.   With your S3 bucket now set up, you can create a new folder called media (at the same level as the newly added static folder) and upload any required media files to it.  
+    * PLEASE MAKE SURE media AND static FILES ARE PUBLICLY ACCESSIBLE UNDER PERMISSIONS
+  
+### Enable automatic deployment:  
+ 1. Click the Deploy tab  
+ 2. In the Automatic deploys section, choose the branch you want to deploy from then click Enable Automation Deploys.  
+
+## How to Fork the repository  
+  
+By forking the GitHub Repository you make a copy of the original repository on your own GitHub account to view and/or make changes without affecting the original repository by following these simple steps:  
+  
+1. Log in to GitHub and locate the [cosminaserbanica/CI-MS4-UrbanSketch Repository](https://github.com/cosminaserbanica/CI-MS4-UrbanSketch)   
+2. Near the top of the Repository, on the right-hand side of the screen, locate the "Fork" button.  
+3. Click this button and you should now have a copy of the original repository in your GitHub account.  
+    
+## Making a Local Clone 
+  
+1. Log in to GitHub and locate the [cosminaserbanica/CI-MS4-UrbanSketch Repository](https://github.com/cosminaserbanica/CI-MS4-UrbanSketch)  
+2. Under the repository name, click "Clone or download".  
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.  
+4. Open Git Bash  
+5. Change the current working directory to the location where you want the cloned directory to be made.  
+6. Type `git clone`, and then paste the URL you copied in Step 3.  
+```  
+$ git clone CI-MS4-UrbanSketch  
+```  
+7. Press Enter. Your local clone will be created.  
+```  
+$ git clone https://github.com/cosminaserbanica/CI-MS4-UrbanSketch  
+> Cloning into `CI-Clone`...  
+> remote: Counting objects: 10, done.  
+> remote: Compressing objects: 100% (8/8), done.  
+> remove: Total 10 (delta 1), reused 10 (delta 1)  
+> Unpacking objects: 100% (10/10), done.  
+```   
+  
+Once the project been loaded into the IDE it is necessary to install the necessary requirements which can be done by typing the following command.  
+  
+    -pip install -r requirements.txt    
+  
+It is important to note that this project will not run locally unless a `.env` file (or similar method) has been set up by the user which contains all of the following details, which have all been kept secret in keeping with best security practices:-  
+   - SECRET_KEY=   
+   - DATABASE_URL=  
+   - AWS_ACCESS_KEY_ID=  
+   - AWS_SECRET_ACCESS_KEY=  
+   - USE_AWS=True  
+   - STRIPE_PUBLIC_KEY=  
+   - STRIPE_SECRET_KEY=  
+   - STRIPE_WH_SECRET=  
+   - EMAIL_HOST_PASSWORD=  
+   - EMAIL_HOST_USER=    
+
