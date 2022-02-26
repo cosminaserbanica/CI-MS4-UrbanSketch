@@ -413,3 +413,23 @@ It is important to note that this project will not run locally unless a `.env` f
    - EMAIL_HOST_PASSWORD=  
    - EMAIL_HOST_USER=    
 
+# Testing  
+------  
+## Code Validity
+- Mobile Friendly
+
+![Mobile Friendly](media/screenfly.PNG)    
+
+- Lighthouse
+
+![Lighthouse - products.html](media/lighthouse-products.PNG)  
+![Lighthouse - bag.html](media/lighthouse-bag.PNG)  
+![Lighthouse - profile.html](media/lighthouse-profile.PNG)
+
+- CSS
+
+![CSS Validation](media/css-validation.PNG) 
+
+- JS
+
+![jshint Validation](media/js-validator.PNG)
