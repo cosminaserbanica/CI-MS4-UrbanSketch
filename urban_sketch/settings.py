@@ -23,13 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-SECRET_KEY = '3j=qd4hsh8^57945y=blr$s73=9o+fv+eg74!07%t!mw8n+@7h'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['urbansketch.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['urbansketch.herokuapp.com', 'localhost']
 
 
 # Application definition
