@@ -35,9 +35,6 @@
   * [Making a Local Clone](#making-a-local-clone)
 - [Testing](#testing)
   * [Code Validity](#code-validity)
-  * [User registration tested](#user-registration-tested)
-  * [User Profile tested](#user-profile-tested)
-  * [Checkout process tested](#checkout-process-tested)
   * [Testing User Stories](#testing-user-stories)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
@@ -200,14 +197,14 @@ For the color palette I used [Coolors](https://coolors.co/).
 * [__AWS-S3__](https://aws.amazon.com/s3/) Amazon Object storage service.  
 * [__VS Code__](https://code.visualstudio.com/download) VS Code was the IDE used to create the site and for version control.  
 * [__Github__](https://github.com/) GitHub is used to store the projects code after being pushed from Gitpod.  
-* [__Canva__](https://canva.com) Canva was used to create wireframes during the design process.
+* [__Canva__](https://canva.com) Canva was used to create wireframes during the design process and for the Urban Sketch logo.
 * [__Django Secret Key Generator__](https://miniwebtool.com/django-secret-key-generator/) to generate the required key.   
 * [__Fontawesome__](https://fontawesome.com) Font Awesome was used for the Icons throughout the site.  
 * [__coolors.co__](https://coolors.co/384364-ffd2b0-f6f7eb-cccccc-333333) used for colour palette selection.   
 * Mozilla DevTools used for debugging and testing.  
 * Google DevTools used for debugging and testing.  
 * [__W3Scool__](https://www.w3schools.com/) used as a general source of information.  
-* [__Unsplash__](https://unsplash.com/) used to download images for the website.  
+* [__Unsplash__](https://unsplash.com/) used to download the background image for the index page.  
 * [__Stackoverflow__](https://stackoverflow.com/) used as one of my main sources of information.  
 * [__W3C Markup Validator__](https://validator.w3.org/) Used to test HTML code validation.  
 * [__W3C CSS Validatior - Jigsaw__](https://jigsaw.w3.org/css-validator/) Used to test CSS code validation.  
@@ -434,3 +431,93 @@ It is important to note that this project will not run locally unless a `.env` f
 
 ![jshint Validation](media/js-validator.PNG)
 
+## Testing User Stories  
+
+* **As a first time user I want to be able to:**  
+
+  * Clearly understand the purpose of the website.
+      - The landing/index page contains an image with graffiti.  
+      - The brandname `UrbanSketch` is prominently featured in the top left-hand corner of the Navbar.  
+      - The Navbar contain the main category names which make it clear that the site sells graffiti related items. 
+  * Easily navigate around the website.  
+      - There is a fixed Navbar across the top of the site.  
+      - The main category names are displayed across the centre of the Navbar.  
+      - There is a Search Box in the centre of the Navbar.
+  * View all the products the website is selling.  
+      - The Navbar contains a prominent link to `All Products`.  
+  * Filter products by category.
+      - The user can also search for a category or product by name in the search bar.
+  * Filter products by price or alphabetical order.  
+      - Under the the navbar the user can filter by Price, Rating & Brand.
+  * Search for a specific product. 
+      - There is a search box in the Navbar for this purpose.  
+  * View detailed information about each individual products on a separate page. 
+      - The product_detail.html page provides this feature.    
+  * Choose the colour, change the quantity and add a product to a shopping basket.  
+      - The product_detail.html page provides this feature.    
+  * View a full list of items within the shopping basket with a breakdown of the individual costs.
+      - The checkout page provides this feature.   
+  * View, update & remove products within my shopping basket. 
+      - The checkout page provides this feature.   
+  * Easily see in the Navbar the current total of any items within the shopping basket. 
+      - There is a shopping basket icon in the top right of the Navbar which gives the current total cost.       
+  * Securely checkout and purchase the products within my shopping basket.  
+      - The checkout page provides this feature.   
+  * Receive an order confirmation on-screen and by email upon completion of my purchase.  
+      - Yes both on-screen and email confirmation is provided to the user.   
+  * Register and create a user profile.   
+      - Available via the main Navbar depending on whether the user is logged in or not.  
+  * Contact the stores owners on social media if I have a query.  
+      - This feature has been provided on the footer available on all products page.    
+
+ 
+   
+* **As a returning user I want to be able to:** 
+
+    * Login and out of the website with ease.  
+      - This feature is provide in the top right of the Navbar.      
+    * View my user profile.  
+      - The user profile page can be accessed via the Navbar.     
+    * Save default delivery details in order to speed up future purchases.   
+      - The user profile page provides this feature.     
+    * Update my default delivery details.  
+      - The user profile page provides this feature.    
+    * View my order history. 
+      - The user profile page provides this feature.  
+    * Add items to wishlist. 
+    - The user can add items to a wishlist for future buy.
+    * Write product reviews. 
+  - The user can write product reviews for other users to read.
+    
+* **As the site owner I want:**
+
+    * Customers to be able to view the full list of products available for purchase.  
+      - This feature is provide via the products.html page.      
+    * Customers to be able to filter products by category, price or alphabetical order.  
+      - This feature is provided under the navbar.     
+    * Customers to be able to select and purchase products as quick & easily as possible.  
+      - There is an option to quickly buy without registration.       
+    * Customers to be able to add, edit, update or delete products within their shopping basket.  
+      - This feature is provided via the Checkout page.     
+    * Customers to be able to read product reviews prior to making a purchase.  
+      - This feature is provide via the Reviews page which is linked to from the product_detail.html page.     
+    * Customers to be able to write product reviews after making a purchase.  
+      - Users must be registered users and logged into the site before they can create a product review but in the next release of the site steps will be taken to restrict the creation of reviews to those users who have actually purchased a specific item.     
+    * To be able to maintain & update the website via an Admin panel.  
+      - This feature is provide for the Admin/Superuser.     
+    * To be able to add, edit, update or delete products from the website.  
+      - This feature is provide for the Admin/Superuser.     
+    * To be able to add, edit, update or delete blog posts from the website 
+      - This feature is provide for the Admin/Superuser.     
+
+# Credits  
+------  
+* The [Code Institute Boutique Ado Mini Project](https://github.com/Code-Institute-Solutions/boutique_ado_v1) was used as a reference point for the developer in the development of the core functionality of the website. The lessons included with the mini-project helped the developer to get a better understanding of each functionality and how to customise it to suit their project.
+* The [Fellow student StephenJ2020/Sportmaster](https://github.com/StephenJ2020/Sportmaster) was used as a reference point for the developer in the development of the core functionality of the product reviews app.
+* [Graff City website](https://www.graff-city.com/) was used to download product images used in the Urban Sketch project.
+
+# Acknowledgements  
+------  
+*  I would like to thank my mentor Brian Macharia for his valuable advice and constant support throughout my learning.  
+*  The wonderful Code Institute Tutor Support team.
+* My fellow Code Institute students [Stephen](https://github.com/StephenJ2020) and [Rebecca](https://github.com/rebeccatraceyt) for inspiring me to be as good as I could be.
