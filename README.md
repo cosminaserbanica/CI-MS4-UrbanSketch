@@ -433,3 +433,4 @@ It is important to note that this project will not run locally unless a `.env` f
 - JS
 
 ![jshint Validation](media/js-validator.PNG)
+
